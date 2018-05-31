@@ -6,4 +6,4 @@ USER 0
 RUN yum install -y evince \
     && yum clean all
 ## switch back to default user
-USER 1000
+USER 100
