@@ -23,5 +23,5 @@ RUN printf 'ibus-daemon -d -x -r\n\
 export GTK_IM_MODULE=ibus\n\
 export XMODIFIERS=@im=ibus\n\
 export QT_IM_MODULE=ibus\n\
-gsettings set org.freedesktop.ibus.general.hotkey triggers "['"'Hangul'"']"'\
+gsettings set org.freedesktop.ibus.general.hotkey triggers "['"'<control>space'"']"'\
 >> $HOME/.profile
